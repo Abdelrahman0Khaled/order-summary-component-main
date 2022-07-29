@@ -1,0 +1,190 @@
+@import url('https://fonts.googleapis.com/css2?family=Red+Hat+Display:wght@500;700;900&display=swap');
+*{
+    box-sizing: border-box;
+    margin: 0;
+    padding: 0;
+    font-family:'Red Hat Display', sans-serif ;
+
+}
+
+body{
+    background-color:hsl(225, 100%, 94%);
+    min-height: 100vh;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    background-image:url(images/pattern-background-desktop.svg) ;
+    background-repeat: no-repeat;
+    /*  */
+    background-size:contain;
+      /*  */
+     background-position: center -50%; 
+
+}
+
+.contener {
+    width:370px;
+
+}
+.contener .card{
+    width:370px;
+    display: flex;
+    flex-direction: column;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+    box-shadow: 0 15px 20px 0px hsl(245deg 75% 52% / 15%);
+
+}
+
+.contener .card img {
+    width:100%;
+    height: 100%;
+    border-top-left-radius: 15px;
+    border-top-right-radius: 15px;
+
+}
+
+.contener .card .info-side{
+    background-color: white;
+    padding:30px ;
+    width:370px;
+    border-bottom-left-radius: 15px;
+    border-bottom-right-radius: 15px;
+
+}
+
+.contener .card .info-side .hero-text p{
+    color:hsl(223, 47%, 23%);
+    font-family:  'Red Hat Display', sans-serif;
+    font-weight: 900;
+    font-size:1.5em;
+
+}
+
+.contener .card .info-side .hero-text{
+    display: flex;
+    align-items:Center;
+    justify-content:center;
+    margin-bottom: 20px;
+
+}
+
+.contener .card .info-side .info-text{
+    /*  */
+    display: flex;
+    align-items:Center;
+    justify-content:center;
+    /*  */
+    text-align: center;
+    font-family: 'Red Hat Display', sans-serif;
+    color: hsl(224, 23%, 55%);
+    font-size: 16px;
+    margin-bottom: 30px;
+
+}
+
+.contener .card .info-side .music-par{
+    width:100%;
+    background-color:hsl(225, 100%, 98%);
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    display: flex;
+    align-items: center;
+    justify-content:space-between;
+    padding: 20px;
+    font-family: 'Red Hat Display', sans-serif ;
+    margin-bottom: 30px;
+
+}
+
+.contener .card .info-side .music-par .middel-text {
+    font-size: 15px;
+    margin-left: -50px;
+    color:hsl(224, 23%, 55%);
+
+}
+
+.contener .card .info-side .music-par .middel-text .Annual-Plan{
+    color:hsl(223, 47%, 23%);
+    font-weight: 900;
+    line-height:1.9;
+
+}
+
+.contener .card .info-side .music-par .change {
+    font-weight: 900;
+    font-size: 14px;
+    color: hsl(245, 75%, 52%);
+
+}
+
+.contener .card .info-side .music-par .change a{
+    color: hsl(245, 75%, 52%);
+
+}
+
+.contener .card .info-side .music-par .change a:hover{
+    text-decoration: none;
+    color: hsla(245, 75%, 52%, 0.750);
+
+}
+
+.contener .card .info-side .ptn-pay{
+    width:100%;
+    background-color: hsl(245, 75%, 52%);
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    padding: 15px;
+    font-weight: bold;
+    border-radius:10px;
+    -webkit-border-radius:10px;
+    -moz-border-radius:10px;
+    -ms-border-radius:10px;
+    -o-border-radius:10px;
+    margin-bottom: 30px;
+    transition: 0.3s;
+    -webkit-transition: 0.3s;
+    -moz-transition: 0.3s;
+    -ms-transition: 0.3s;
+    -o-transition: 0.3s;
+    box-shadow: 0 10px 20px 0px hsl(245deg 75% 52% / 50%);
+
+}
+
+.contener .card .info-side .ptn-pay a{
+    color:white;
+    text-decoration: none;
+
+}
+
+.contener .card .info-side .ptn-pay:hover{
+    background-color: hsl(245, 75%, 52%, 0.750);
+    cursor: pointer;
+
+}
+.contener .card .info-side .ptn-cancel{
+    margin-bottom: 10px;
+    font-family: 'Red Hat Display', sans-serif;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: bold;
+
+}
+
+.contener .card .info-side .ptn-cancel a:hover{
+    color:hsl(223, 47%, 23%);
+
+}
+
+.contener .card .info-side .ptn-cancel a{
+    color:hsl(224, 23%, 55%);
+    text-decoration: none;
+
+}
+
+/* D o n e  > > > */
